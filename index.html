@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- DEv Icon Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfólio Maike Gomes</title>
   </head>
   <body>
-    <h1>Maike Gomes Almeida</h1>
+    <main id="container">
+      <aside id="bio-container">
+        <h2>Maike Gomes</h2>
+        <img src="img/maike.png" alt="Maike Gomes" />
+        <p>
+          Olá, meu nome é Maike Gomes, e sou
+          <span class="highlight">Desenvolvedor Frontend</span>
+        </p>
+        <p id="welcome-text">Seja bem-vindo!</p>
+        <ul id="social-container">
+          <li>
+            <a href="https://www.linkedin.com/in/maikegomes/" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/maike-k" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/maikegomess/" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <div id="email-container">
+          <a href="mailto:maikegomesalmeida.com" target="_blank">
+            <ion-icon name="mail"></ion-icon>maikegomesalmeida@outlook.com</a
+          >
+        </div>
+      </aside>
+      <section id="about-container">
+        <h1 id="name">Maike Gomes</h1>
+        <p id="title"><span class="highlight">Desenvolvedor Frontend</span></p>
+        <p class="description">
+          Sou um desenvolvedor inicante, busco oportunidade para adquirir
+          experiência em desenvolvimento web, que permita o meu crescimento
+          intelectual, profissional e técnico.
+        </p>
+        <a
+          href="https://www.github.com/maike-k"
+          target="_blank"
+          id="btn-projects"
+          ><ion-icon name="share"></ion-icon><span>Ver projetos</span></a
+        >
+        <h2 id="skills-section-title">Minhas skills</h2>
+        <p class="description">Conheça as tecnologias que domino:</p>
+        <div class="skills-container">
+          <div class="skills-box">
+            <p class="skills-title">Frontend</p>
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-react-original-wordmark colored"></i>
+            <i class="devicon-typescript-plain colored"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Ion Icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </body>
 </html>
